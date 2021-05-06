@@ -1,0 +1,4 @@
+import os, sys, stat
+
+
+os.chmod("testfile.txt", stat.S_IXGRP | stat.S_IWGRP) # group execute & write
